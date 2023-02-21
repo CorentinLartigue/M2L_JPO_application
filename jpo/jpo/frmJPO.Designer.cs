@@ -108,12 +108,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GrayText;
             this.ClientSize = new System.Drawing.Size(1014, 528);
             this.Controls.Add(this.menuStripJPO);
+            this.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStripJPO;
             this.Name = "frmJPO";
             this.Text = "JPO";
+            this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.menuStripJPO.ResumeLayout(false);
             this.menuStripJPO.PerformLayout();
             this.ResumeLayout(false);

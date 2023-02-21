@@ -53,3 +53,18 @@ E:\2021-2022\AP-SIO1B\AP2.3 JPO\jpo\jpo\obj\x64\Debug\jpo.pdb
 E:\2021-2022\AP-SIO1B\AP2.3 JPO\jpo\jpo\bin\x64\Debug\jpo.exe.config
 E:\2021-2022\AP-SIO1B\AP2.3 JPO\jpo\jpo\bin\x64\Debug\jpo.exe
 E:\2021-2022\AP-SIO1B\AP2.3 JPO\jpo\jpo\bin\x64\Debug\jpo.pdb
+F:\BTS SIO\Première Année\AP 2022-2023\AP 2.2 - M2L JPO\jpo\jpo\jpo\bin\x64\Debug\jpo.exe.config
+F:\BTS SIO\Première Année\AP 2022-2023\AP 2.2 - M2L JPO\jpo\jpo\jpo\bin\x64\Debug\jpo.exe
+F:\BTS SIO\Première Année\AP 2022-2023\AP 2.2 - M2L JPO\jpo\jpo\jpo\bin\x64\Debug\jpo.pdb
+F:\BTS SIO\Première Année\AP 2022-2023\AP 2.2 - M2L JPO\jpo\jpo\jpo\obj\x64\Debug\jpo.csproj.AssemblyReference.cache
+F:\BTS SIO\Première Année\AP 2022-2023\AP 2.2 - M2L JPO\jpo\jpo\jpo\obj\x64\Debug\jpo.csproj.SuggestedBindingRedirects.cache
+F:\BTS SIO\Première Année\AP 2022-2023\AP 2.2 - M2L JPO\jpo\jpo\jpo\obj\x64\Debug\jpo.frmEnregistrementLigues.resources
+F:\BTS SIO\Première Année\AP 2022-2023\AP 2.2 - M2L JPO\jpo\jpo\jpo\obj\x64\Debug\jpo.frmEnregistrementMembres.resources
+F:\BTS SIO\Première Année\AP 2022-2023\AP 2.2 - M2L JPO\jpo\jpo\jpo\obj\x64\Debug\jpo.frmInscriptionLigues.resources
+F:\BTS SIO\Première Année\AP 2022-2023\AP 2.2 - M2L JPO\jpo\jpo\jpo\obj\x64\Debug\jpo.frmInscriptionMembres.resources
+F:\BTS SIO\Première Année\AP 2022-2023\AP 2.2 - M2L JPO\jpo\jpo\jpo\obj\x64\Debug\jpo.frmJPO.resources
+F:\BTS SIO\Première Année\AP 2022-2023\AP 2.2 - M2L JPO\jpo\jpo\jpo\obj\x64\Debug\jpo.Properties.Resources.resources
+F:\BTS SIO\Première Année\AP 2022-2023\AP 2.2 - M2L JPO\jpo\jpo\jpo\obj\x64\Debug\jpo.csproj.GenerateResource.cache
+F:\BTS SIO\Première Année\AP 2022-2023\AP 2.2 - M2L JPO\jpo\jpo\jpo\obj\x64\Debug\jpo.csproj.CoreCompileInputs.cache
+F:\BTS SIO\Première Année\AP 2022-2023\AP 2.2 - M2L JPO\jpo\jpo\jpo\obj\x64\Debug\jpo.exe
+F:\BTS SIO\Première Année\AP 2022-2023\AP 2.2 - M2L JPO\jpo\jpo\jpo\obj\x64\Debug\jpo.pdb
