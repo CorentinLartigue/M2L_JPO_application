@@ -68,3 +68,18 @@ F:\BTS SIO\Première Année\AP 2022-2023\AP 2.2 - M2L JPO\jpo\jpo\jpo\obj\x64\De
 F:\BTS SIO\Première Année\AP 2022-2023\AP 2.2 - M2L JPO\jpo\jpo\jpo\obj\x64\Debug\jpo.csproj.CoreCompileInputs.cache
 F:\BTS SIO\Première Année\AP 2022-2023\AP 2.2 - M2L JPO\jpo\jpo\jpo\obj\x64\Debug\jpo.exe
 F:\BTS SIO\Première Année\AP 2022-2023\AP 2.2 - M2L JPO\jpo\jpo\jpo\obj\x64\Debug\jpo.pdb
+F:\[Disque dur]\Etudes\BTS SIO\BTS SIO 1B\AP\AP 2.2 - M2L JPO\ap-2.2-m2l-jpo\jpo\jpo\bin\x64\Debug\jpo.exe.config
+F:\[Disque dur]\Etudes\BTS SIO\BTS SIO 1B\AP\AP 2.2 - M2L JPO\ap-2.2-m2l-jpo\jpo\jpo\bin\x64\Debug\jpo.exe
+F:\[Disque dur]\Etudes\BTS SIO\BTS SIO 1B\AP\AP 2.2 - M2L JPO\ap-2.2-m2l-jpo\jpo\jpo\bin\x64\Debug\jpo.pdb
+F:\[Disque dur]\Etudes\BTS SIO\BTS SIO 1B\AP\AP 2.2 - M2L JPO\ap-2.2-m2l-jpo\jpo\jpo\obj\x64\Debug\jpo.csproj.AssemblyReference.cache
+F:\[Disque dur]\Etudes\BTS SIO\BTS SIO 1B\AP\AP 2.2 - M2L JPO\ap-2.2-m2l-jpo\jpo\jpo\obj\x64\Debug\jpo.csproj.SuggestedBindingRedirects.cache
+F:\[Disque dur]\Etudes\BTS SIO\BTS SIO 1B\AP\AP 2.2 - M2L JPO\ap-2.2-m2l-jpo\jpo\jpo\obj\x64\Debug\jpo.frmEnregistrementLigues.resources
+F:\[Disque dur]\Etudes\BTS SIO\BTS SIO 1B\AP\AP 2.2 - M2L JPO\ap-2.2-m2l-jpo\jpo\jpo\obj\x64\Debug\jpo.frmEnregistrementMembres.resources
+F:\[Disque dur]\Etudes\BTS SIO\BTS SIO 1B\AP\AP 2.2 - M2L JPO\ap-2.2-m2l-jpo\jpo\jpo\obj\x64\Debug\jpo.frmInscriptionLigues.resources
+F:\[Disque dur]\Etudes\BTS SIO\BTS SIO 1B\AP\AP 2.2 - M2L JPO\ap-2.2-m2l-jpo\jpo\jpo\obj\x64\Debug\jpo.frmInscriptionMembres.resources
+F:\[Disque dur]\Etudes\BTS SIO\BTS SIO 1B\AP\AP 2.2 - M2L JPO\ap-2.2-m2l-jpo\jpo\jpo\obj\x64\Debug\jpo.frmJPO.resources
+F:\[Disque dur]\Etudes\BTS SIO\BTS SIO 1B\AP\AP 2.2 - M2L JPO\ap-2.2-m2l-jpo\jpo\jpo\obj\x64\Debug\jpo.Properties.Resources.resources
+F:\[Disque dur]\Etudes\BTS SIO\BTS SIO 1B\AP\AP 2.2 - M2L JPO\ap-2.2-m2l-jpo\jpo\jpo\obj\x64\Debug\jpo.csproj.GenerateResource.cache
+F:\[Disque dur]\Etudes\BTS SIO\BTS SIO 1B\AP\AP 2.2 - M2L JPO\ap-2.2-m2l-jpo\jpo\jpo\obj\x64\Debug\jpo.csproj.CoreCompileInputs.cache
+F:\[Disque dur]\Etudes\BTS SIO\BTS SIO 1B\AP\AP 2.2 - M2L JPO\ap-2.2-m2l-jpo\jpo\jpo\obj\x64\Debug\jpo.exe
+F:\[Disque dur]\Etudes\BTS SIO\BTS SIO 1B\AP\AP 2.2 - M2L JPO\ap-2.2-m2l-jpo\jpo\jpo\obj\x64\Debug\jpo.pdb
