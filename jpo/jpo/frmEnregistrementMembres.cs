@@ -29,7 +29,7 @@ namespace jpo
             OleDbDataReader drLigues = DbConnex.GetDataReader("select * from LIGUES ");
             while (drLigues.Read())
             {
-                cbxLigue.Items.Add(drLigues.GetString(1));
+                cbxLigue.Items.Add(drLigues.GetValue(1).ToString());
             }
             DbConnex.connexionClose();
         }
@@ -91,6 +91,11 @@ namespace jpo
         }
 
         private void btnModifier_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbxMembres_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

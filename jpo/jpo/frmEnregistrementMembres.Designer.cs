@@ -160,6 +160,7 @@ namespace jpo
             this.lbxMembres.Name = "lbxMembres";
             this.lbxMembres.Size = new System.Drawing.Size(208, 173);
             this.lbxMembres.TabIndex = 16;
+            this.lbxMembres.SelectedIndexChanged += new System.EventHandler(this.lbxMembres_SelectedIndexChanged);
             // 
             // cbxLigue
             // 

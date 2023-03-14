@@ -36,7 +36,7 @@ namespace jpo
             OleDbDataReader drLigues = DbConnex.GetDataReader("select * from ligues");
             while (drLigues.Read())
             {
-                MessageBox.Show(drLigues.GetString(1));
+                MessageBox.Show(drLigues.GetString(1));                                                          
             }
             DbConnex.connexionClose();
             */
