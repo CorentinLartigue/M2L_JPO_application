@@ -44,6 +44,9 @@ namespace jpo
             this.button3 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.listBox2 = new System.Windows.Forms.ListBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.SuspendLayout();
@@ -64,7 +67,7 @@ namespace jpo
             this.lbStandLongueur.AutoSize = true;
             this.lbStandLongueur.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbStandLongueur.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.lbStandLongueur.Location = new System.Drawing.Point(758, 168);
+            this.lbStandLongueur.Location = new System.Drawing.Point(758, 179);
             this.lbStandLongueur.Name = "lbStandLongueur";
             this.lbStandLongueur.Size = new System.Drawing.Size(74, 18);
             this.lbStandLongueur.TabIndex = 2;
@@ -72,14 +75,14 @@ namespace jpo
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(861, 170);
+            this.numericUpDown1.Location = new System.Drawing.Point(861, 181);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(91, 20);
             this.numericUpDown1.TabIndex = 3;
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(861, 227);
+            this.numericUpDown2.Location = new System.Drawing.Point(861, 238);
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(91, 20);
             this.numericUpDown2.TabIndex = 4;
@@ -89,7 +92,7 @@ namespace jpo
             this.lbStandlargeur.AutoSize = true;
             this.lbStandlargeur.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbStandlargeur.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.lbStandlargeur.Location = new System.Drawing.Point(758, 227);
+            this.lbStandlargeur.Location = new System.Drawing.Point(758, 238);
             this.lbStandlargeur.Name = "lbStandlargeur";
             this.lbStandlargeur.Size = new System.Drawing.Size(58, 18);
             this.lbStandlargeur.TabIndex = 5;
@@ -154,22 +157,22 @@ namespace jpo
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.button1.Location = new System.Drawing.Point(46, 460);
+            this.button1.Location = new System.Drawing.Point(40, 460);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(131, 58);
             this.button1.TabIndex = 10;
-            this.button1.Text = "Ajouter ";
+            this.button1.Text = "S\'incrire";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.button2.Location = new System.Drawing.Point(295, 460);
+            this.button2.Location = new System.Drawing.Point(218, 460);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(131, 58);
             this.button2.TabIndex = 11;
-            this.button2.Text = "Supprimer";
+            this.button2.Text = "Désincrire";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
@@ -178,7 +181,7 @@ namespace jpo
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button3.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.button3.Location = new System.Drawing.Point(580, 460);
+            this.button3.Location = new System.Drawing.Point(378, 461);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(131, 58);
             this.button3.TabIndex = 12;
@@ -208,12 +211,44 @@ namespace jpo
             this.listBox2.TabIndex = 14;
             this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(761, 135);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(227, 20);
+            this.textBox1.TabIndex = 15;
+            // 
+            // button4
+            // 
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button4.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.button4.Location = new System.Drawing.Point(580, 460);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(131, 58);
+            this.button4.TabIndex = 16;
+            this.button4.Text = "Demander ";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(795, 467);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(233, 46);
+            this.button5.TabIndex = 17;
+            this.button5.Text = "ModifierStand";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // frmInscriptionLigues
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(1241, 647);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.button3);
@@ -231,6 +266,7 @@ namespace jpo
             this.Controls.Add(this.label1);
             this.Name = "frmInscriptionLigues";
             this.Text = "list";
+            this.Load += new System.EventHandler(this.frmInscriptionLigues_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             this.ResumeLayout(false);
@@ -255,5 +291,8 @@ namespace jpo
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }

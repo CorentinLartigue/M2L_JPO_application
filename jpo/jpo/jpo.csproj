@@ -117,6 +117,11 @@
     <Compile Include="frmJPO.Designer.cs">
       <DependentUpon>frmJPO.cs</DependentUpon>
     </Compile>
+    <Compile Include="jpoDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>jpoDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmEnregistrementLigues.resx">
@@ -143,6 +148,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="jpoDataSet.xsc">
+      <DependentUpon>jpoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="jpoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>jpoDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="jpoDataSet.xss">
+      <DependentUpon>jpoDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

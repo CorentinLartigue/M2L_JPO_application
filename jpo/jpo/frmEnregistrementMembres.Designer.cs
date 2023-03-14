@@ -56,7 +56,6 @@ namespace jpo
             this.label1.Size = new System.Drawing.Size(229, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Enregistrement membres";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnAjouter
             // 
