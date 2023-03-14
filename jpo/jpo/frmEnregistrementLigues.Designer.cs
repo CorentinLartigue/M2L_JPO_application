@@ -159,7 +159,6 @@ namespace jpo
             this.label5.Size = new System.Drawing.Size(71, 18);
             this.label5.TabIndex = 47;
             this.label5.Text = "Discipline";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -171,7 +170,6 @@ namespace jpo
             this.label6.Size = new System.Drawing.Size(229, 20);
             this.label6.TabIndex = 50;
             this.label6.Text = "Listes des Ligues Non Inscrites";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // listBox2
             // 
@@ -199,7 +197,6 @@ namespace jpo
             this.listBox3.Name = "listBox3";
             this.listBox3.Size = new System.Drawing.Size(235, 303);
             this.listBox3.TabIndex = 49;
-            this.listBox3.SelectedIndexChanged += new System.EventHandler(this.listBox3_SelectedIndexChanged);
             // 
             // button2
             // 

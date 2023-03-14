@@ -138,6 +138,7 @@ namespace jpo
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(192, 303);
             this.listBox1.TabIndex = 9;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -231,6 +232,7 @@ namespace jpo
             this.Controls.Add(this.label1);
             this.Name = "frmInscriptionLigues";
             this.Text = "list";
+            this.Load += new System.EventHandler(this.frmInscriptionLigues_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             this.ResumeLayout(false);

@@ -117,6 +117,7 @@
             this.Name = "frmJPO";
             this.Text = "JPO";
             this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.Load += new System.EventHandler(this.frmJPO_Load);
             this.menuStripJPO.ResumeLayout(false);
             this.menuStripJPO.PerformLayout();
             this.ResumeLayout(false);

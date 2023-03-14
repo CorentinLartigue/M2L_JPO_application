@@ -21,5 +21,15 @@ namespace jpo
         {
 
         }
+
+        private void frmInscriptionLigues_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

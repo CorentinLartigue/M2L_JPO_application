@@ -83,5 +83,10 @@ namespace jpo
         {
             this.Close();
         }
+
+        private void frmJPO_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
