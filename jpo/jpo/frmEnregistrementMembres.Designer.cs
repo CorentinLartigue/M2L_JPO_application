@@ -38,11 +38,11 @@ namespace jpo
             this.lblMail = new System.Windows.Forms.Label();
             this.lblTelephone = new System.Windows.Forms.Label();
             this.lblPrenom = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.Membres = new System.Windows.Forms.ListBox();
+            this.tbxNom = new System.Windows.Forms.TextBox();
+            this.tbxMail = new System.Windows.Forms.TextBox();
+            this.tbxTelephone = new System.Windows.Forms.TextBox();
+            this.tbxPrenom = new System.Windows.Forms.TextBox();
+            this.lbxMembres = new System.Windows.Forms.ListBox();
             this.cbxLigue = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -66,6 +66,7 @@ namespace jpo
             this.btnAjouter.TabIndex = 2;
             this.btnAjouter.Text = "Ajouter";
             this.btnAjouter.UseVisualStyleBackColor = true;
+            this.btnAjouter.Click += new System.EventHandler(this.btnAjouter_Click);
             // 
             // btnSupprimer
             // 
@@ -121,41 +122,44 @@ namespace jpo
             this.lblPrenom.TabIndex = 9;
             this.lblPrenom.Text = "Prénom";
             // 
-            // textBox1
+            // tbxNom
             // 
-            this.textBox1.Location = new System.Drawing.Point(469, 115);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(120, 20);
-            this.textBox1.TabIndex = 10;
+            this.tbxNom.Location = new System.Drawing.Point(469, 115);
+            this.tbxNom.Name = "tbxNom";
+            this.tbxNom.Size = new System.Drawing.Size(120, 20);
+            this.tbxNom.TabIndex = 10;
             // 
-            // textBox4
+            // tbxMail
             // 
-            this.textBox4.Location = new System.Drawing.Point(469, 233);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(120, 20);
-            this.textBox4.TabIndex = 13;
+            this.tbxMail.Location = new System.Drawing.Point(469, 233);
+            this.tbxMail.Name = "tbxMail";
+            this.tbxMail.Size = new System.Drawing.Size(120, 20);
+            this.tbxMail.TabIndex = 13;
+            this.tbxMail.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbxMail_KeyPress);
             // 
-            // textBox5
+            // tbxTelephone
             // 
-            this.textBox5.Location = new System.Drawing.Point(469, 198);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(120, 20);
-            this.textBox5.TabIndex = 14;
+            this.tbxTelephone.Location = new System.Drawing.Point(469, 198);
+            this.tbxTelephone.Name = "tbxTelephone";
+            this.tbxTelephone.Size = new System.Drawing.Size(120, 20);
+            this.tbxTelephone.TabIndex = 14;
+            this.tbxTelephone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbxTelephone_KeyPress);
             // 
-            // textBox6
+            // tbxPrenom
             // 
-            this.textBox6.Location = new System.Drawing.Point(469, 156);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(120, 20);
-            this.textBox6.TabIndex = 15;
+            this.tbxPrenom.Location = new System.Drawing.Point(469, 156);
+            this.tbxPrenom.Name = "tbxPrenom";
+            this.tbxPrenom.Size = new System.Drawing.Size(120, 20);
+            this.tbxPrenom.TabIndex = 15;
+            this.tbxPrenom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbxPrenom_KeyPress);
             // 
-            // Membres
+            // lbxMembres
             // 
-            this.Membres.FormattingEnabled = true;
-            this.Membres.Location = new System.Drawing.Point(43, 118);
-            this.Membres.Name = "Membres";
-            this.Membres.Size = new System.Drawing.Size(208, 173);
-            this.Membres.TabIndex = 16;
+            this.lbxMembres.FormattingEnabled = true;
+            this.lbxMembres.Location = new System.Drawing.Point(43, 118);
+            this.lbxMembres.Name = "lbxMembres";
+            this.lbxMembres.Size = new System.Drawing.Size(208, 173);
+            this.lbxMembres.TabIndex = 16;
             // 
             // cbxLigue
             // 
@@ -164,6 +168,7 @@ namespace jpo
             this.cbxLigue.Name = "cbxLigue";
             this.cbxLigue.Size = new System.Drawing.Size(208, 21);
             this.cbxLigue.TabIndex = 17;
+            this.cbxLigue.SelectedIndexChanged += new System.EventHandler(this.cbxLigue_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -182,11 +187,11 @@ namespace jpo
             this.ClientSize = new System.Drawing.Size(710, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cbxLigue);
-            this.Controls.Add(this.Membres);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lbxMembres);
+            this.Controls.Add(this.tbxPrenom);
+            this.Controls.Add(this.tbxTelephone);
+            this.Controls.Add(this.tbxMail);
+            this.Controls.Add(this.tbxNom);
             this.Controls.Add(this.lblPrenom);
             this.Controls.Add(this.lblTelephone);
             this.Controls.Add(this.lblMail);
@@ -216,11 +221,11 @@ namespace jpo
         private System.Windows.Forms.Label lblMail;
         private System.Windows.Forms.Label lblTelephone;
         private System.Windows.Forms.Label lblPrenom;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.ListBox Membres;
+        private System.Windows.Forms.TextBox tbxNom;
+        private System.Windows.Forms.TextBox tbxMail;
+        private System.Windows.Forms.TextBox tbxTelephone;
+        private System.Windows.Forms.TextBox tbxPrenom;
+        private System.Windows.Forms.ListBox lbxMembres;
         private System.Windows.Forms.ComboBox cbxLigue;
         private System.Windows.Forms.Label label2;
     }

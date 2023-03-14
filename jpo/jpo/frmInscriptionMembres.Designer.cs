@@ -33,10 +33,10 @@ namespace jpo
             this.lbxInscrit = new System.Windows.Forms.ListBox();
             this.lbxNonInscrit = new System.Windows.Forms.ListBox();
             this.btnModifier = new System.Windows.Forms.Button();
-            this.btnSupprimer = new System.Windows.Forms.Button();
+            this.btnDesinscrire = new System.Windows.Forms.Button();
             this.btnInscrire = new System.Windows.Forms.Button();
             this.lbxActivité = new System.Windows.Forms.ListBox();
-            this.checkedListBox3 = new System.Windows.Forms.CheckedListBox();
+            this.clbCreneaux = new System.Windows.Forms.CheckedListBox();
             this.lblNonInscrit = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblActivité = new System.Windows.Forms.Label();
@@ -57,9 +57,9 @@ namespace jpo
             // lbxInscrit
             // 
             this.lbxInscrit.FormattingEnabled = true;
-            this.lbxInscrit.Location = new System.Drawing.Point(440, 145);
+            this.lbxInscrit.Location = new System.Drawing.Point(679, 136);
             this.lbxInscrit.Name = "lbxInscrit";
-            this.lbxInscrit.Size = new System.Drawing.Size(211, 173);
+            this.lbxInscrit.Size = new System.Drawing.Size(158, 186);
             this.lbxInscrit.TabIndex = 6;
             // 
             // lbxNonInscrit
@@ -67,31 +67,33 @@ namespace jpo
             this.lbxNonInscrit.FormattingEnabled = true;
             this.lbxNonInscrit.Location = new System.Drawing.Point(163, 145);
             this.lbxNonInscrit.Name = "lbxNonInscrit";
-            this.lbxNonInscrit.Size = new System.Drawing.Size(211, 173);
+            this.lbxNonInscrit.Size = new System.Drawing.Size(169, 173);
             this.lbxNonInscrit.TabIndex = 7;
             // 
             // btnModifier
             // 
-            this.btnModifier.Location = new System.Drawing.Point(440, 357);
+            this.btnModifier.Location = new System.Drawing.Point(706, 339);
             this.btnModifier.Name = "btnModifier";
             this.btnModifier.Size = new System.Drawing.Size(87, 56);
             this.btnModifier.TabIndex = 10;
             this.btnModifier.Text = "Modifier";
             this.btnModifier.UseVisualStyleBackColor = true;
+            this.btnModifier.Click += new System.EventHandler(this.btnModifier_Click);
             // 
-            // btnSupprimer
+            // btnDesinscrire
             // 
-            this.btnSupprimer.Location = new System.Drawing.Point(738, 357);
-            this.btnSupprimer.Name = "btnSupprimer";
-            this.btnSupprimer.Size = new System.Drawing.Size(75, 56);
-            this.btnSupprimer.TabIndex = 9;
-            this.btnSupprimer.Text = "Supprimer";
-            this.btnSupprimer.UseVisualStyleBackColor = true;
+            this.btnDesinscrire.Location = new System.Drawing.Point(523, 339);
+            this.btnDesinscrire.Name = "btnDesinscrire";
+            this.btnDesinscrire.Size = new System.Drawing.Size(75, 56);
+            this.btnDesinscrire.TabIndex = 9;
+            this.btnDesinscrire.Text = "Desinscrire";
+            this.btnDesinscrire.UseVisualStyleBackColor = true;
+            this.btnDesinscrire.Click += new System.EventHandler(this.btnSupprimer_Click);
             // 
             // btnInscrire
             // 
             this.btnInscrire.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
-            this.btnInscrire.Location = new System.Drawing.Point(204, 357);
+            this.btnInscrire.Location = new System.Drawing.Point(416, 339);
             this.btnInscrire.Name = "btnInscrire";
             this.btnInscrire.Size = new System.Drawing.Size(84, 56);
             this.btnInscrire.TabIndex = 8;
@@ -101,28 +103,28 @@ namespace jpo
             // lbxActivité
             // 
             this.lbxActivité.FormattingEnabled = true;
-            this.lbxActivité.Location = new System.Drawing.Point(706, 145);
+            this.lbxActivité.Location = new System.Drawing.Point(387, 136);
             this.lbxActivité.Name = "lbxActivité";
             this.lbxActivité.Size = new System.Drawing.Size(211, 121);
             this.lbxActivité.TabIndex = 11;
             this.lbxActivité.SelectedIndexChanged += new System.EventHandler(this.listBox3_SelectedIndexChanged);
             // 
-            // checkedListBox3
+            // clbCreneaux
             // 
-            this.checkedListBox3.FormattingEnabled = true;
-            this.checkedListBox3.Items.AddRange(new object[] {
+            this.clbCreneaux.FormattingEnabled = true;
+            this.clbCreneaux.Items.AddRange(new object[] {
             "Matin",
             "Aprés-midi"});
-            this.checkedListBox3.Location = new System.Drawing.Point(706, 284);
-            this.checkedListBox3.Name = "checkedListBox3";
-            this.checkedListBox3.Size = new System.Drawing.Size(211, 34);
-            this.checkedListBox3.TabIndex = 5;
+            this.clbCreneaux.Location = new System.Drawing.Point(387, 284);
+            this.clbCreneaux.Name = "clbCreneaux";
+            this.clbCreneaux.Size = new System.Drawing.Size(211, 34);
+            this.clbCreneaux.TabIndex = 5;
             // 
             // lblNonInscrit
             // 
             this.lblNonInscrit.AutoSize = true;
             this.lblNonInscrit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNonInscrit.Location = new System.Drawing.Point(231, 100);
+            this.lblNonInscrit.Location = new System.Drawing.Point(204, 100);
             this.lblNonInscrit.Name = "lblNonInscrit";
             this.lblNonInscrit.Size = new System.Drawing.Size(85, 20);
             this.lblNonInscrit.TabIndex = 12;
@@ -132,17 +134,17 @@ namespace jpo
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(524, 100);
+            this.label2.Location = new System.Drawing.Point(687, 100);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 20);
+            this.label2.Size = new System.Drawing.Size(82, 20);
             this.label2.TabIndex = 13;
-            this.label2.Text = "Inscrit";
+            this.label2.Text = "Inscription";
             // 
             // lblActivité
             // 
             this.lblActivité.AutoSize = true;
             this.lblActivité.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblActivité.Location = new System.Drawing.Point(780, 100);
+            this.lblActivité.Location = new System.Drawing.Point(459, 100);
             this.lblActivité.Name = "lblActivité";
             this.lblActivité.Size = new System.Drawing.Size(57, 20);
             this.lblActivité.TabIndex = 14;
@@ -171,7 +173,7 @@ namespace jpo
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(952, 450);
+            this.ClientSize = new System.Drawing.Size(989, 450);
             this.Controls.Add(this.lblLigue);
             this.Controls.Add(this.cbxLigue);
             this.Controls.Add(this.lblActivité);
@@ -179,15 +181,16 @@ namespace jpo
             this.Controls.Add(this.lblNonInscrit);
             this.Controls.Add(this.lbxActivité);
             this.Controls.Add(this.btnModifier);
-            this.Controls.Add(this.btnSupprimer);
+            this.Controls.Add(this.btnDesinscrire);
             this.Controls.Add(this.btnInscrire);
             this.Controls.Add(this.lbxNonInscrit);
             this.Controls.Add(this.lbxInscrit);
-            this.Controls.Add(this.checkedListBox3);
+            this.Controls.Add(this.clbCreneaux);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.Desktop;
             this.Name = "frmInscriptionMembres";
             this.Text = "frmInscriptionMembres";
+            this.Load += new System.EventHandler(this.frmInscriptionMembres_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -199,10 +202,10 @@ namespace jpo
         private System.Windows.Forms.ListBox lbxInscrit;
         private System.Windows.Forms.ListBox lbxNonInscrit;
         private System.Windows.Forms.Button btnModifier;
-        private System.Windows.Forms.Button btnSupprimer;
+        private System.Windows.Forms.Button btnDesinscrire;
         private System.Windows.Forms.Button btnInscrire;
         private System.Windows.Forms.ListBox lbxActivité;
-        private System.Windows.Forms.CheckedListBox checkedListBox3;
+        private System.Windows.Forms.CheckedListBox clbCreneaux;
         private System.Windows.Forms.Label lblNonInscrit;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblActivité;

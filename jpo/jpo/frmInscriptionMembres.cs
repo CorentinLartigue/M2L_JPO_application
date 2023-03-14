@@ -21,5 +21,20 @@ namespace jpo
         {
 
         }
+
+        private void btnSupprimer_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnModifier_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmInscriptionMembres_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

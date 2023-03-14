@@ -208,11 +208,7 @@ namespace jpo
             this.btnModif.TabIndex = 53;
             this.btnModif.Text = "Modifier";
             this.btnModif.UseVisualStyleBackColor = true;
-            // 
-            // jpoDataSet
-            // 
-            this.jpoDataSet.DataSetName = "jpoDataSet";
-            this.jpoDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+
             // 
             // lIGUESBindingSource
             // 
