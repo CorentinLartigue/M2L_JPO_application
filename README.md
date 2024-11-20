@@ -1,13 +1,19 @@
 # Projet M2L - Inscription à une journée porte ouverte
 
+---
+
 ## Description
 Le projet est une application C# permettant l'inscription des participants à des journées portes ouvertes organisées par différentes ligues sportives. Elle permet également aux utilisateurs de s'enregistrer en tant que membres dans ces ligues après l'événement, selon la discipline choisie. L'application offre une interface simple pour consulter les événements disponibles et gérer l'inscription.
+
+---
 
 ### Fonctionnalités
 - **Inscription à une journée porte ouverte** : L'utilisateur peut consulter une liste d'événements de ligues sportives disponibles et s'y inscrire.
 - **Enregistrement dans une ligue** : Après inscription à un événement, l'utilisateur peut être enregistré comme membre dans la ligue correspondante.
 - **Gestion des ligues et disciplines** : Ajout, modification, et suppression de ligues sportives et de leurs disciplines.
 - **Base de données** : L'application utilise une base de données pour stocker les informations des utilisateurs, des ligues et des événements.
+
+---
 
 ### Technologies utilisées
 - **Langage** : C#
