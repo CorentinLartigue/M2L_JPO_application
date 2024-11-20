@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Corentin\\Projet_perso\\M2L_JPO_application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF58BEDF-1AEE-4FAA-A4C7-FDACC5AE4796}|jpo\\jpo.csproj|c:\\corentin\\projet_perso\\m2l_jpo_application\\jpo\\frmenregistrementmembres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF58BEDF-1AEE-4FAA-A4C7-FDACC5AE4796}|jpo\\jpo.csproj|solutionrelative:jpo\\frmenregistrementmembres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF58BEDF-1AEE-4FAA-A4C7-FDACC5AE4796}|jpo\\jpo.csproj|c:\\corentin\\projet_perso\\m2l_jpo_application\\jpo\\frmenregistrementmembres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FF58BEDF-1AEE-4FAA-A4C7-FDACC5AE4796}|jpo\\jpo.csproj|solutionrelative:jpo\\frmenregistrementmembres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF58BEDF-1AEE-4FAA-A4C7-FDACC5AE4796}|jpo\\jpo.csproj|C:\\Corentin\\Projet_perso\\M2L_JPO_application\\jpo\\frmenregistrementligues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FF58BEDF-1AEE-4FAA-A4C7-FDACC5AE4796}|jpo\\jpo.csproj|solutionrelative:jpo\\frmenregistrementligues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF58BEDF-1AEE-4FAA-A4C7-FDACC5AE4796}|jpo\\jpo.csproj|C:\\Corentin\\Projet_perso\\M2L_JPO_application\\jpo\\frmenregistrementligues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF58BEDF-1AEE-4FAA-A4C7-FDACC5AE4796}|jpo\\jpo.csproj|solutionrelative:jpo\\frmenregistrementligues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmEnregistrementMembres.cs",
+              "DocumentMoniker": "C:\\Corentin\\Projet_perso\\M2L_JPO_application\\jpo\\frmEnregistrementMembres.cs",
+              "RelativeDocumentMoniker": "jpo\\frmEnregistrementMembres.cs",
+              "ToolTip": "C:\\Corentin\\Projet_perso\\M2L_JPO_application\\jpo\\frmEnregistrementMembres.cs",
+              "RelativeToolTip": "jpo\\frmEnregistrementMembres.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAWwEgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T02:01:01.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmEnregistrementMembres.cs [Design]",
+              "DocumentMoniker": "C:\\Corentin\\Projet_perso\\M2L_JPO_application\\jpo\\frmEnregistrementMembres.cs",
+              "RelativeDocumentMoniker": "jpo\\frmEnregistrementMembres.cs",
+              "ToolTip": "C:\\Corentin\\Projet_perso\\M2L_JPO_application\\jpo\\frmEnregistrementMembres.cs [Design]",
+              "RelativeToolTip": "jpo\\frmEnregistrementMembres.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T02:00:55.18Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmEnregistrementLigues.cs",
+              "DocumentMoniker": "C:\\Corentin\\Projet_perso\\M2L_JPO_application\\jpo\\frmEnregistrementLigues.cs",
+              "RelativeDocumentMoniker": "jpo\\frmEnregistrementLigues.cs",
+              "ToolTip": "C:\\Corentin\\Projet_perso\\M2L_JPO_application\\jpo\\frmEnregistrementLigues.cs",
+              "RelativeToolTip": "jpo\\frmEnregistrementLigues.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAhwBEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-11-20T02:00:55.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmEnregistrementLigues.cs [Design]",
+              "DocumentMoniker": "C:\\Corentin\\Projet_perso\\M2L_JPO_application\\jpo\\frmEnregistrementLigues.cs",
+              "RelativeDocumentMoniker": "jpo\\frmEnregistrementLigues.cs",
+              "ToolTip": "F:\\[Disque dur]\\Etudes\\BTS SIO\\BTS SIO 1B\\AP\\AP 2.2 - M2L JPO\\ap-2.2-m2l-jpo\\Corentin\\jpo\\jpo\\frmEnregistrementLigues.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-11-20T02:00:55.206Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
